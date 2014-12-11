@@ -135,8 +135,8 @@ setlocal formatoptions+=r
 " Do not automatically insert bullets when auto-wrapping with text-width
 setlocal formatoptions-=c
 " Accept various markers as bullets
-" (commented because gq wrapping on bullet items does not work)
-" setlocal comments=b:*,b:+,b:-
+" (cleaned because gq wrapping on bullet items does not work)
+setlocal comments=
 
 " Automatically continue blockquote on line break
 setlocal comments+=b:>
